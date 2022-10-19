@@ -29,7 +29,7 @@ cd Ramirez_David
 Posteriormente deben clonar este repositorio en su carpeta personal así:
 
 ```console
-git clone git@ramirezlab/Farmacoinformatica-2022
+git clone https://github.com/ramirezlab/Farmacoinformatica-2022.git
 ```
 
 
