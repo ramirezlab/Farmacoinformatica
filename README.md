@@ -1,4 +1,6 @@
-Bienvenidos a su curso de farmacoinformática. En este repositorio encontrarán el contenido e instrucciones para trabajar en las sesiones preparadas de acuerdo al programa del curso.
+##Bienvenidos a su curso de farmacoinformática. 
+
+En este repositorio encontrarán el contenido e instrucciones para trabajar en las sesiones preparadas de acuerdo al programa del curso.
 
 1. Para iniciar deben primero acceder a la maquina *Chernobyl* del RamirezLab mediante la siguiente opción de comando (usando como passwd: **ramirezlab2022**):
 
