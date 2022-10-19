@@ -1,4 +1,4 @@
-##Bienvenidos a su curso de farmacoinformática. 
+# Bienvenidos a su curso de farmacoinformática. 
 
 En este repositorio encontrarán el contenido e instrucciones para trabajar en las sesiones preparadas de acuerdo al programa del curso.
 
