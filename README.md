@@ -1,5 +1,3 @@
-# Farmacoinformatica-2022
-
 Bienvenidos a su curso de farmacoinformática. En este repositorio encontrarán el contenido e instrucciones para trabajar en las sesiones preparadas de acuerdo al programa del curso.
 
 1. Para iniciar deben primero acceder a la maquina *Chernobyl* del RamirezLab mediante la siguiente opción de comando (usando como passwd: **ramirezlab2022**):
@@ -37,8 +35,8 @@ Bienvenidos a su curso de farmacoinformática. En este repositorio encontrarán 
    ```console
    conda activate farmacoinformatica 
    ```
-Este ambiente se encuentra en 
->Farmacoinformatica-2022/00-Documentos/00-env/env.yml
+   Este ambiente se encuentra en 
+   >*Farmacoinformatica-2022/00-Documentos/00-env/env.yml*
 
 7. Ahora debemos iniciar el servidor para poder trabajar con Jupyter notebook. Para poder abrir el cuaderno de jupyter, sin interferencia de otros usuarios que estén utilizando la cuenta de invitado simultáneamente, vamos a crear un túnel para abrir el cuaderno en nuestro navegador local. Para esto debemos definir el puerto, que serán 4 dígitos (**####**). Estos números deben diferir con los de otros usuarios, para no causar interferencia. Por ejemplo
 
@@ -55,7 +53,7 @@ Este ambiente se encuentra en
    ```
 	
    Lo siguiente es abrir cualquier navegador dentro del computador personal, especificando el puerto. Con esto abriremos la interfaz de jupyter mediante la tunelización. En el navegador:
-   > localhost:1234
+   > **localhost:1234**
 
    Finalmente, la interfaz de jupyter nos pedirá un código de acceso llamado “token”, el cual se encuentra en la primera terminal, donde activamos jupyter.
 
@@ -70,3 +68,7 @@ Este ambiente se encuentra en
    > **0d47af2913ba0a8d65b8aa64933de2118299af2b918fc256**
 
 De esta forma tendra activo Juputer notebook y podrá realizar las sesiones donde se emplee este servidor.
+
+Ahora, en el navegador acceda a la carpeta creada al clonar este repositorio, y a la sesion de trabajo correspondiente.
+
+Have Fun!!!
