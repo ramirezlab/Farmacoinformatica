@@ -55,7 +55,7 @@ En este repositorio encontrarán el contenido e instrucciones para trabajar en l
     
    Lo siguiente es abrir cualquier navegador dentro del computador personal, especificando el puerto. Con esto abriremos la interfaz de jupyter mediante la tunelización. En el navegador:
    ```console
-   **localhost:####**
+   localhost:####
    ```
    _recuerde cambiar #### por el número escogido_
    
