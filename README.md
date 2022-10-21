@@ -7,7 +7,7 @@ En este repositorio encontrarán el contenido e instrucciones para trabajar en l
    Mediante la siguiente opción de comando (usando como passwd: **ramirezlab2022**):
    
    ```console
-   ssh -L ####:localhost:#### invitado1@152.74.100.143
+   ssh -L ####:localhost:1111 invitado1@152.74.100.143
    ```
    _recuerde cambiar #### por el número escogido_
 
@@ -55,7 +55,7 @@ En este repositorio encontrarán el contenido e instrucciones para trabajar en l
     
    Lo siguiente es abrir cualquier navegador dentro del computador personal, especificando el puerto. Con esto abriremos la interfaz de jupyter mediante la tunelización. En el navegador:
    ```console
-   localhost:####
+   localhost:1111
    ```
    _recuerde cambiar #### por el número escogido_
    
