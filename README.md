@@ -9,7 +9,7 @@ En este repositorio encontrarán el contenido e instrucciones para trabajar en l
    ```console
    ssh -L ####:localhost:#### invitado1@152.74.100.143
    ```
-   _ recuerde cambiar #### por el número escogido.
+   _ recuerde cambiar #### por el número escogido_
 
 2. Luego, deben acceder a la carpeta “Farmacoinforamtica-2022” con el siguiente comando
    
