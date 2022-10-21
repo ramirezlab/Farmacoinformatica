@@ -47,8 +47,9 @@ En este repositorio encontrarán el contenido e instrucciones para trabajar en l
 7. Ahora debemos iniciar el servidor para poder trabajar con Jupyter notebook. Para poder abrir el cuaderno de jupyter, sin interferencia de otros usuarios que estén utilizando la cuenta de invitado simultáneamente, vamos a crear un túnel para abrir el cuaderno en nuestro navegador local. Para esto debemos definir el puerto, que serán 4 dígitos (**####**). Estos números deben diferir con los de otros usuarios, para no causar interferencia. Por ejemplo
    
    ```console
-   jupyter notebook --no-browser --port=1234
+   jupyter notebook --no-browser --port=####
    ```
+   _recuerde cambiar #### por el número escogido_
    
    Despues de este comando, deben copiar el token para usarlo en los siguientes pasos.
     
@@ -56,6 +57,7 @@ En este repositorio encontrarán el contenido e instrucciones para trabajar en l
    ```console
    **localhost:####**
    ```
+   _recuerde cambiar #### por el número escogido_
    
    Finalmente, la interfaz de jupyter nos pedirá un código de acceso llamado “token”, el cual se encuentra en la primera terminal, donde activamos jupyter.
    
