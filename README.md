@@ -6,7 +6,7 @@ En este repositorio encontrarán el contenido e instrucciones para trabajar en l
    Debemos escoger un puerto para abrir la interfaz gráfica, para esto escogemos un número **único** de cuatro cifras (`####`) que se usará en adelante. El comando de acceso es:
    
    ```console
-   ssh -L 1111:localhost:#### invitado1@152.74.100.143
+   ssh -L ####:localhost:#### invitado1@152.74.100.143
    ```
    
    (_recuerde cambiar `####` por el número escogido_)
@@ -63,8 +63,9 @@ En este repositorio encontrarán el contenido e instrucciones para trabajar en l
 8. Lo siguiente es abrir cualquier navegador dentro del computador personal. Con esto abriremos la interfaz de jupyter mediante la tunelización. En el navegador:
    
    ```console
-   localhost:1111
+   localhost:####
    ```
+   (_recuerde cambiar `####` por el número escogido_)
    
    Finalmente, la interfaz de jupyter nos pedirá un código de acceso llamado `token`, el cual se encuentra en el **numeral 7**.
 
