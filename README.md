@@ -62,9 +62,9 @@ En este repositorio encontrarán el contenido e instrucciones para trabajar en l
    > **0d47af2913ba0a8d65b8aa64933de2118299af2b918fc256**
 8. Lo siguiente es abrir cualquier navegador dentro del computador personal. Con esto abriremos la interfaz de jupyter mediante la tunelización. En el navegador:
    
-```console
-localhost:####
-```
+   ```console
+   localhost:####
+   ```
    
    (_recuerde cambiar `####` por el número escogido_)
    
