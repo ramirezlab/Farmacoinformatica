@@ -65,6 +65,7 @@ En este repositorio encontrarán el contenido e instrucciones para trabajar en l
    ```console
    localhost:####
    ```
+   
    (_recuerde cambiar `####` por el número escogido_)
    
    Finalmente, la interfaz de jupyter nos pedirá un código de acceso llamado `token`, el cual se encuentra en el **numeral 7**.
