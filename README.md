@@ -3,7 +3,7 @@
 En este repositorio encontrarán el contenido e instrucciones para trabajar en las sesiones preparadas de acuerdo al programa del curso.
 
 1. Para iniciar deben primero deben acceder a la máquina *Chernobyl* del RamirezLab.
-   Debemos escoger un puerto para abrir la interfaz gráfica, para esto escogemos un número **único** de cuatro cifras (`####`) que se usará en adelante. El comando de acceso es:
+   Debemos escoger un puerto para abrir la interfaz gráfica, para esto escogemos un número **único** de cuatro cifras (`####`) que se usará en adelante. El comando de acceso es (test):
    
    ```console
    ssh -L ####:localhost:#### invitado1@152.74.100.143
