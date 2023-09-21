@@ -23,7 +23,7 @@ En este repositorio encontrarán el contenido e instrucciones para trabajar en l
 3. Luego, deben acceder a la carpeta `Farmacoinforamtica-2022` con el siguiente comando
    
    ```console
-   cd Farmacoinforamtica-2022
+   cd Farmacoinforamtica
    ```
 4. Posteriormente, deben crear una carpeta con su apellido y nombre, sin usar espacios ni signos de puntuación, por ejemplo:
    
@@ -38,7 +38,7 @@ En este repositorio encontrarán el contenido e instrucciones para trabajar en l
 6. Posteriormente, deben clonar este repositorio en su carpeta personal así:
    
    ```console
-   git clone https://github.com/ramirezlab/Farmacoinformatica-2022.git
+   git clone https://github.com/ramirezlab/Farmacoinformatica.git
    ```
 7. Ahora deben iniciar el servidor para poder trabajar con `Jupyter notebook`.
    
