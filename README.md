@@ -38,7 +38,7 @@ En este repositorio encontrarán el contenido e instrucciones para trabajar en l
 6. Posteriormente, deben clonar este repositorio en su carpeta personal así:
    
    ```console
-   git clone https://github.com/ramirezlab/Farmacoinformatica-2022.git
+   git clone https://github.com/ramirezlab/Farmacoinformatica.git
    ```
 7. Ahora deben iniciar el servidor para poder trabajar con `Jupyter notebook`.
    
