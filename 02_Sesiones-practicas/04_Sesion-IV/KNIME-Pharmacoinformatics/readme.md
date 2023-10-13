@@ -12,7 +12,7 @@ The workflow is presented using Acetylcholinesterase (AChE) as an example, inclu
 
 ### Requirements
 
-+ Knime version 4.3.1, an open source software for data analysis <b><a href="https://www.knime.com/" target="_blank">Knime website</a></b>
++ Knime version 4.7.7, an open source software for data analysis <b><a href="https://www.knime.com/" target="_blank">Knime website</a></b>
 + Our Knime workflow to capture relevant data about an indication of interest making use of different databases <a href="https://github.com/jdhurtadop2017/Chemoinformatics_analysis/raw/master/chemoinformatics.knwf">**Chemoinformatics-analysis**</a>.
 + Input files <a href="https://github.com/jdhurtadop2017/Chemoinformatics_analysis/raw/master/Input/Compounds%20with%20IC50%20%20Target%20AChE.rar">**Inputs**</a>.
 + Here you can have a complete visualization of the workflow <a href="https://workflow2app.netlify.app/" target="_blank">**Workflow Visualization**</a>.
@@ -31,7 +31,7 @@ Inactive IC50 >5 µM
 
 <img src="./media\figure1.png" style="zoom:50%;" />
 
-### 2. **Molecular filtering: ADME and lead-likeness criteria**
+### 2 and 3. **Molecular filtering: ADME and lead-likeness criteria**
 
 Not all compounds are suitable as a starting point for drug development due to their undesirable pharmacokinetic properties, which could adversely affect absorption, distribution, metabolism, and excretion (ADME) of a drug. Therefore, these compounds are usually excluded in datasets aiming to target promising drug candidates. Therefore, fewer drug-like molecules in the dataset should be eliminated.
 
@@ -43,34 +43,21 @@ The bioavailability of a compound is an important ADME property. Lipinski's rule
 + Calculated LogP (octanol-water coefficient) <= 5 or less.
 + Subsequently, those compounds complying with three or four of Lipinski's rules were filtered out for further chemometric analysis.
 
-<img src="./media\figure2.png" style="zoom:75%;" />
+<img src="./media\figure2.png" style="zoom:25%;" />
 
-### 3. Compound clustering
+### 4. Compound clustering
 
-Clustering can be used to identify groups of similar compounds, in order to pick a set of diverse compounds from these clusters for diverse goals like, for exmaple,  non-redundant experimental testing. The following steps show how to create these clusters based on a hierarchical clustering algorithm.
+Clustering can be used to identify groups of similar compounds, in order to pick a set of diverse compounds from these clusters for diverse goals like, for example,  non-redundant experimental testing. The following steps show how to create these clusters based on a hierarchical clustering algorithm.
 
-<img src="./media\figure3.png" style="zoom:50%;" />
+<img src="./media\figure3.png" style="zoom:40%;" />
 
 ### 4. Maximum common substructures
 
 To visualize the shared scaffolds between compounds, and thus emphasize the extent and type of chemical similarities inside a cluster, the maximum common substructure (MCS) can be calculated and highlighted. In this workflow, the MCS was calculated for the four significant clusters obtained from the previous node using the FMCS algorithm.
 
-<img src="./media\figure4.png" style="zoom:30%;" />
+<img src="./media\figure4.png" style="zoom:20%" />
 
 
-
-### 6. R-group Decomposition
-
-R-group decomposition is a special type of search that aims to find a central substructure (scaffold) and identify its substituents at certain binding positions. The query molecule consists of the scaffold and the binding sites represented by R-groups.
-
-This block of the workflow shows how to perform R-group decomposition using the RDKit community extension. Its implementation consists of several steps. 
-
-+ Calculate MCS taking all active compounds as a starting point.
-+ Perform the R-group decomposition
-+ Find how many molecules with each combination of the two selected R-groups are in the dataset.
-+ Visualize the results of the R-group decomposition.
-
-<img src="./media\figure5.png" style="zoom:50%;" />
 
 ### 4. Adapted from:
 
