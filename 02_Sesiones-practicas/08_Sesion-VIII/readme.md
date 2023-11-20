@@ -2,6 +2,6 @@
 ![image2](https://github.com/Claudia-Alejandra-Martinez/Farmacoinformatica/blob/main/02_Sesiones-practicas/08_Sesion-VII/imagenes/Cytoscape_tutorial_02.jpg)
 ![image3](https://github.com/Claudia-Alejandra-Martinez/Farmacoinformatica/blob/main/02_Sesiones-practicas/08_Sesion-VII/imagenes/Cytoscape_tutorial_03.jpg)
 ![image4](https://github.com/Claudia-Alejandra-Martinez/Farmacoinformatica/blob/main/02_Sesiones-practicas/08_Sesion-VII/imagenes/Cytoscape_tutorial_04.jpg)
-![image5](hhttps://github.com/Claudia-Alejandra-Martinez/Farmacoinformatica/blob/main/02_Sesiones-practicas/08_Sesion-VII/imagenes/Cytoscape_tutorial_05.jpg)
+![image5](https://github.com/Claudia-Alejandra-Martinez/Farmacoinformatica/blob/main/02_Sesiones-practicas/08_Sesion-VII/imagenes/Cytoscape_tutorial_05.jpg)
 ![image6](https://github.com/Claudia-Alejandra-Martinez/Farmacoinformatica/blob/main/02_Sesiones-practicas/08_Sesion-VII/imagenes/Cytoscape_tutorial_06.jpg)
 ![image7](https://github.com/Claudia-Alejandra-Martinez/Farmacoinformatica/blob/main/02_Sesiones-practicas/08_Sesion-VII/imagenes/Cytoscape_tutorial_07.jpg)
